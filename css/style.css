@@ -1,0 +1,60 @@
+/* *reset* */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+/* Header */
+header{
+    height: 80px;
+    background-color: orange;
+}
+
+/* Main */
+main.flex{
+    gap: 10px;
+}
+
+nav.menu{
+    padding: 20px;
+    width: 25%;
+    /* debug */
+    background-color: aqua;
+}
+
+.main-section{
+    width: 50%;
+    /* debug */
+    background-color: lightcoral;
+}
+
+aside{
+    width: 25%;
+   /* debug */
+   background-color: lightgreen;
+}
+
+nav.menu li{
+    margin-top: 20px;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+
+.flex{
+    display: flex;
+}
+
+
+footer{
+    
+    /* degub */
+    background-color: greenyellow;
+    height: 100px;
+}
